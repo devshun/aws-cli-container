@@ -1,4 +1,4 @@
-## AWS CLI ＋ AWS toolkitをdevcontainerで実行するためのリポジトリ
+## AWS CLIやAWS Toolkitをdevcontainerで実行するためのリポジトリ
 
 ### 使用方法
 
