@@ -2,5 +2,4 @@
 
 ### 使用方法
 
-1. `> open in folder`でコンテナを起動
-2. `aws configure`でconfig, credentialsを作成
+1. `> Dev containers: Open in folder in Container...`でコンテナを起動
