@@ -6,5 +6,7 @@
   },
   "mounts": [
     "source=${localWorkspaceFolder}/.aws,target=/home/vscode/.aws,type=bind,consistency=cached"
-  ]
+  ],
+  // session manager pluginのインストール
+  "postCreateCommand": "curl -sL https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_arm64/session-manager-plugin.deb -o session-manager-plugin.deb && sudo dpkg -i session-manager-plugin.deb && rm -f session-manager-plugin.deb"
 }
